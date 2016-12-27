@@ -1,10 +1,10 @@
 $(document).ready(function() {
 	$("#button-signup").click(function() {
-		$("#form-divlog").hide();
-		$("#form-divreg").show();
+		$("#form-divlog").fadeOut(1);
+		$("#form-divreg").fadeIn(1000);
 });
 	$("#button-signin").click(function() {
-		$("#form-divreg").hide();
-		$("#form-divlog").show();
+		$("#form-divreg").fadeOut(1);
+		$("#form-divlog").fadeIn(1000);
 	});
 });

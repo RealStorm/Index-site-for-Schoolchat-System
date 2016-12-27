@@ -1,7 +1,10 @@
 $mainblue: #3A75C4
 $iconwidth: 35px
-$iconpos: 5.5%
+$iconPosMobile: 5.5%
+$iconPosDesk: 4%
+$iconPos1440p: 4%
 
+// C S S  R E S E T 
 html
 	margin: 0
 	padding: 0
@@ -9,139 +12,158 @@ body
 	margin: 0
 	padding: 0
 	font-family: 'Lato', sans-serif
-// Reset Margin's and padding's on Html and Body tag.
+// C S S  R E S E T 
 
-// Positionering
+// P O S I T I O N 
 header
 	text-align: center
 	width: 100%
 	margin-top: 50px
 	margin-bottom: 25px
+
+.input-box
+	margin: auto 0
 main
 	text-align: center
-	width: 100%
-// Positionering
+// P O S I T I O N 
 
-// Form's and divs hide show
+// H I D E  D I V 
 #form-divreg
 	display: none
-// Form's and divs hide show
+// H I D E  D I V 
 
-// Input's style
+// I N P U T  S T Y L E 
 .form-input
-	margin-bottom: 25px
 	width: 45%
 	height: 50px
+	margin-bottom: 25px
+
+	font-size: 27px
 	text-align: center
-	font-size: 30px
+	border-radius: 50px
 	border: 2px solid $mainblue
-	border-radius: 12px
 
 .form-input:focus
 	outline: none
 
 .form-input:active
 	outline: none
-// Input's style
+// I N P U T  S T Y L E 
 
-// Button Styles 
-#log-button
-	padding: 20px 
-	width: 28%
-	height: 60px
-	background: $mainblue
-	border: 2px solid $mainblue
-	color: white 
-	font-size: 20px
-	border-radius: 35px
-	position: relative
-	text-align: center
-	left: 15px
-
-#create-button
-	padding: 20px 
-	width: 28%
-	height: 60px
-	background: $mainblue
-	border: 2px solid $mainblue
-	color: white 
-	font-size: 20px
-	border-radius: 35px
-	position: relative
-	text-align: center
-	left: 15px
-
-#button-signup
-	border-radius: 50%
-	height: 60px
-	width: 60px
-	font-size: 30px
-	background: $mainblue
-	color: white
-	border: 2px solid $mainblue
-	position: relative
-	left: 25px
-
-#button-signin
-	border-radius: 50%
-	height: 60px
-	width: 60px
-	font-size: 30px
-	background: $mainblue
-	color: white
-	border: 2px solid $mainblue 
-	position: relative
-	left: 25px
-// Button Styles 
-
-// Fa icons style and position
-.fa 
-	font-size: 32px !important
-
+//  I C O N S 
 .fa-lock
-	position: relative
-	z-index: 1
-	left: $iconpos
-	width: $iconwidth
+	width: 25px
+	margin-top: 15px
+	margin-left: 25px
+	display: block
+	position: absolute
+
 	color: $mainblue
+	font-size: 25px !important
 
 .fa-envelope
-	position: relative
-	z-index: 1
-	left: $iconpos
-	width: $iconwidth
+	width: 25px
+	margin-top: 15px
+	margin-left: 25px
+	display: block
+	position: absolute
+
 	color: $mainblue
+	font-size: 25px !important
 
 .fa-user
-	position: relative
-	z-index: 1
-	left: $iconpos
-	width: $iconwidth
+	width: 25px
+	margin-top: 15px
+	margin-left: 25px
+	display: block
+	position: absolute
+
 	color: $mainblue
+	font-size: 25px !important
 
+.fa-sign
+	color: #FFFFFF
+	font-size: 30px !important
+	width: 25px
 .fa-user-plus
-	text-align: center
-	width: $iconwidth
-	color: #FFFFFF 
+	color: #FFFFFF
+	font-size: 30px !important
+	width: 25px
+// I C O N S
 
-.fa-sign-in
+// B U T T O N  S T Y L E 
+#log-button
+	width: 30%
+	height: 60px
+	padding: 0 
+	
+	color: #FFFFFF
+	font-size: 32px
 	text-align: center
-	width: 35px
-	color: #FFFFFF 
-// Fa icons style and position
+	border-radius: 35px
+	background: $mainblue
+	border: 2px solid $mainblue
 
-// Footer Style also Navigation
+#create-button
+	width: 30%
+	height: 60px
+	padding: 0 
+
+	color: #FFFFFF
+	font-size: 32px
+	border-radius: 35px
+	text-align: center
+	background: $mainblue
+	border: 2px solid $mainblue
+
+
+#button-signup
+	height: 60px
+	width: 60px
+	margin-left: 15px
+	padding: 0 
+	border-radius: 50%
+
+	font-size: 30px
+	color: #FFFFFF
+	background: $mainblue
+	border: 2px solid $mainblue
+
+#button-signin
+	height: 60px
+	width: 60px
+	margin-left: 15px
+	padding: 0 
+	border-radius: 50%
+
+	font-size: 30px
+	color: #FFFFFF
+	background: $mainblue
+	border: 2px solid $mainblue
+
+
+// B U T T O N  S T Y L E 
+
+// F O O T E R  A N D  N A V I 
 footer
 	text-align: center
 	margin-top: 25px
+	margin-bottom: 25px
 
 .footer-navigation ul
 	list-style: none
+	padding: 0
 
 .footer-navigation li a
 	color: $mainblue
 	text-decoration: none
-// Footer Style also Navigation
+// F O O T E R  A N D  N A V I 
+
+
+
+
+
+
 
 
 
